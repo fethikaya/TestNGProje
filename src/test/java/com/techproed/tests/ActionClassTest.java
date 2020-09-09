@@ -84,8 +84,7 @@ public class ActionClassTest extends TestBase {
     }
 
     @Test
-    public void
-    dragAndDrag (){  // Maus ile sürükle ve bırak
+    public void dragAndDrag (){  // Maus ile sürükle ve bırak
 
         driver.get("http://www.google.com");
         WebElement aramaKutusu = driver.findElement(By.name("q"));
