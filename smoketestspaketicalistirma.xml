@@ -1,0 +1,19 @@
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite - smoketests paketi">
+
+    <test name="Test - smoketests paket testleri">
+
+        <packages>
+            <package name="com.techproed.smoketests"></package>
+            <!-- Çalıştıracağımız dosya ve paketin ismini buraya yazıyoruz-->
+
+            <package name="excelautomation"></package>
+            <!-- birden fazla paket yazılabilir-->
+
+        </packages>
+
+    </test>
+</suite>

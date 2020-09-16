@@ -25,7 +25,8 @@ public class Ornek_HotelOlusturma extends TestBase {
         password.sendKeys("Man1ager2!" + Keys.ENTER);
     }
 
-    @Test //(dependsOnMethods = "giris")  beforemethod yerine bu şekilde de yapılabilir
+    @Test (  groups = {"fhctrip", "hotelolusturma"} )
+    //(dependsOnMethods = "giris")  beforemethod yerine bu şekilde de yapılabilir
     public void hotelCreat (){
 
         WebElement kodNo = driver.findElement(By.id("Code"));

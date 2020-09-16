@@ -1,0 +1,15 @@
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite - fhctrip-qa.com">
+    <test name="Test - fhctrip-qa testleri">
+        <classes>
+            <class name="com.techproed.tests.Ornek_WebTable"></class>
+            <class name="com.techproed.tests.FhcTripLoginTest"></class>
+            <class name="com.techproed.tests.Ornek_HotelOlusturma"></class>
+
+            <!-- Çalıştıracağımız class'in ismini buraya yazıyoruz-->
+        </classes>
+    </test>
+</suite>
