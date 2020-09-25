@@ -1,0 +1,19 @@
+
+
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Paralel Test 2" parallel="classes" thread-count="2" >
+    <!-- <suite name="Paralel Test 2" parallel="methods" thread-count="2" >
+                      Methodları çalıştırmak istersek methods  yazıyoruz -->
+      <test name="Class Paralel">
+          <classes>
+              <class name="com.techproed.tests.FhcTripLoginTest"></class>
+              <class name="com.techproed.tests.AmazonTest"></class>
+              <class name="com.techproed.tests.GoogleAramaTest"></class>
+              <class name="com.techproed.tests.OtelTest"></class>
+          </classes>
+      </test>
+
+  </suite>
